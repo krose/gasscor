@@ -9,3 +9,10 @@ gassco_noms()
 \description{
 Get the Aggregated daily nominations for a gasday.
 }
+\examples{
+
+library(gasscor)
+
+gassco_noms()
+
+}
