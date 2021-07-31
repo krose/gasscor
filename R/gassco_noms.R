@@ -19,6 +19,16 @@ gassco_noms <- function(){
   # subset to entries
   gs_nom <- gs_nom[names(gs_nom) == "entry"]
 
+  gs_nom <- gassco_noms_parse_entry(gs_nom)
+
+  gs_nom
+}
+
+
+
+
+gassco_noms_parse_entry <- function(gs_nom){
+
   # convert list to a data.frame.
   gs_nom <- lapply(gs_nom,
                    function(x){
@@ -29,7 +39,7 @@ gassco_noms <- function(){
                        updated = x$updated[[1]],
                        content = x$content[[1]],
                        stringsAsFactors = FALSE
-                       )
+                     )
                    })
   gs_nom <- dplyr::bind_rows(gs_nom)
 
@@ -42,3 +52,4 @@ gassco_noms <- function(){
 
   gs_nom
 }
+
