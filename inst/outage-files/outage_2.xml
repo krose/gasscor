@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Published at umm.gassco.no</title>
+    <id>tag:umm.gassco.no/atom.xml</id>
+    <updated>2021-08-02T09:09:00Z</updated>
+    <entry>
+    <title>2021-259-A UNPLANNED event at Troll.</title>
+    <link rel="alternate" href="https://umm.gassco.no/details?id=83bb54c9-d261-45a1-8c0b-3aaa4947eb2c" />
+      <id>urn:uuid:8CBE36A6-517F-4FE1-9E4F-8AF9CD2382B1</id>
+      <updated>2021-08-02T09:06:50Z</updated>
+      <summary type="xhtml"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+                                       <REMITUrgentMarketMessages xmlns="http://www.acer.europa.eu/REMIT/REMITUMMGasSchema_V1.xsd" xmlns:ns2="http://www.acer.europa.eu/REMIT/REMITUMMCommonSchema_V1.xsd">
+                                       <UMM>
+                                       <messageId>2021-259-A________________003</messageId>
+                                       <event>
+                                       <eventStatus>Active</eventStatus>
+                                       <eventType>Gas production field unavailability</eventType>
+                                       <eventStart>2021-07-27T06:00:00.000+02:00</eventStart>
+                                       <eventStop>2021-08-05T11:06:00.000+02:00</eventStop>
+                                       </event>
+                                       <unavailabilityType>Unplanned</unavailabilityType>
+                                       <publicationDateTime>2021-08-02T11:06:50.853+02:00</publicationDateTime>
+                                       <capacity>
+                                       <unitMeasure>mcm/d</unitMeasure>
+                                       <unavailableCapacity>27.0</unavailableCapacity>
+                                       <availableCapacity>67.0</availableCapacity>
+                                       <technicalCapacity>94.0</technicalCapacity>
+                                       </capacity>
+                                       <unavailabilityReason>Corrective maintenance</unavailabilityReason>
+                                       <remarks>Uncertain duration</remarks>
+                                       <balancingZone>21Y000000000024I</balancingZone>
+                                       <balancingZone>21Y0000000001278</balancingZone>
+                                       <balancingZone>21YGB-UKGASGRIDW</balancingZone>
+                                       <balancingZone>21YNL----TTF---1</balancingZone>
+                                       <balancingZone>37Y701125MH0000I</balancingZone>
+                                       <balancingZone>37Y701133MH0000P</balancingZone>
+                                       <affectedAsset>
+                                       <ns2:name>Troll</ns2:name>
+                                       </affectedAsset>
+                                       <marketParticipant>
+                                       <ns2:name>Gassco AS</ns2:name>
+                                       <ns2:eic>21X-NO-A-A0A0A-2</ns2:eic>
+                                       </marketParticipant>
+                                       </UMM>
+                                       </REMITUrgentMarketMessages>]]></summary>
+        </entry>
+        </feed>
